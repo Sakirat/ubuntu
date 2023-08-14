@@ -45,3 +45,38 @@ clear
 git config --global user.email "bukky4m@gmail.com"
 git config --global user.name "Sakirat Osimade"
 ssh ec2-user@172.31.18.77
+git branch
+git status
+git checkout -b project11
+mkdir playbooks
+cd inventory
+touch dev.yml uat.yml staging.yml prod.yml
+cd ..
+ssh-add -l
+ssh ec2-user@172.31.18.77
+git status
+git add .
+git commit -m "modified"
+git push origin project11
+cd /var/lib/jenkins/jobs/ansible/builds
+ls
+cd 3
+ls
+cd archive/
+ls
+cd inventory/
+ls
+cat dev.yml 
+cd
+git checkout main
+git branch
+git checkout master
+git status
+git add .
+git commit -a
+git status
+git add
+git add .
+clear
+cd ansible-config-mgt/
+ansible-playbook -i inventory/dev.yml playbooks/common.yml
