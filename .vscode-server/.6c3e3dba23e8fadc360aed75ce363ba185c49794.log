@@ -524,3 +524,6 @@ Cancelling previous shutdown timeout
 [13:59:00] [127.0.0.1][2b6ab6ff][ManagementConnection] New connection established.
 [13:59:00] [127.0.0.1][63cf76d0][ExtensionHostConnection] New connection established.
 [13:59:00] [127.0.0.1][63cf76d0][ExtensionHostConnection] <43785> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[14:03:59] New EH opened, aborting shutdown
+[14:04:00] [127.0.0.1][fd0cb253][ExtensionHostConnection] <43478> Extension Host Process exited with code: 0, signal: null.
