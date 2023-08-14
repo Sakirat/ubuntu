@@ -1,0 +1,9 @@
+2023-08-14 12:00:12.779 [info] Log level: Info
+2023-08-14 12:00:12.779 [info] Validating found git in: "git"
+2023-08-14 12:00:12.779 [info] Using git "2.25.1" from "git"
+2023-08-14 12:00:27.704 [info] > git clone https://github.com/Sakirat/ansible-config-mgt.git /home/ubuntu/ansible-config-mgt --progress [593ms]
+2023-08-14 12:00:27.704 [info] Cloning into '/home/ubuntu/ansible-config-mgt'...
+remote: Enumerating objects: 6, done.        
+remote: Counting objects:  16% (1/6)        remote: Counting objects:  33% (2/6)        remote: Counting objects:  50% (3/6)        remote: Counting objects:  66% (4/6)        remote: Counting objects:  83% (5/6)        remote: Counting objects: 100% (6/6)        remote: Counting objects: 100% (6/6), done.        
+remote: Compressing objects:  50% (1/2)        remote: Compressing objects: 100% (2/2)        remote: Compressing objects: 100% (2/2), done.        
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0        

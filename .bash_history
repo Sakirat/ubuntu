@@ -29,3 +29,19 @@ sudo apt update
 sudo apt install ansible
 ansible --version
 clear
+sudo ls /var/lib/jenkins/jobs/ansible/builds/<
+sudo ls /var/lib/jenkins
+sudo ls /var/lib/jenkins/jobs
+sudo ls /var/lib/jenkins/jobs/ansible/builds
+sudo ls /var/lib/jenkins/jobs/ansible/builds/2
+cd 
+cd /var/lib/jenkins/jobs/ansible/builds/2/archive
+ls
+cat README.md 
+cd ..
+.. cd ..
+cd ..
+clear
+git config --global user.email "bukky4m@gmail.com"
+git config --global user.name "Sakirat Osimade"
+ssh ec2-user@172.31.18.77
