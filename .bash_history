@@ -80,3 +80,4 @@ git add .
 clear
 cd ansible-config-mgt/
 ansible-playbook -i inventory/dev.yml playbooks/common.yml
+ansible-playbook -i /var/lib/jenkins/jobs/ansible/builds/4/archive/inventory/dev.yml /var/lib/jenkins/jobs/ansible/builds/4/archive/playbooks/common.yml

@@ -359,3 +359,6 @@
 2023-08-14 13:59:00.900 [info] [127.0.0.1][63cf76d0][ExtensionHostConnection] <43785> Launched Extension Host Process.
 2023-08-14 14:03:59.937 [info] New EH opened, aborting shutdown
 2023-08-14 14:04:00.925 [info] [127.0.0.1][fd0cb253][ExtensionHostConnection] <43478> Extension Host Process exited with code: 0, signal: null.
+2023-08-14 17:53:00.713 [info] [127.0.0.1][63cf76d0][ExtensionHostConnection] <43785> Extension Host Process exited with code: 0, signal: null.
+2023-08-14 17:53:00.719 [info] Last EH closed, waiting before shutting down
+2023-08-14 17:58:00.719 [info] Last EH closed, shutting down
