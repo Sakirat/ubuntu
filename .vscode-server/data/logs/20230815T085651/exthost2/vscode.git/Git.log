@@ -936,3 +936,28 @@ To https://github.com/Sakirat/ansible-config-mgt.git
 2023-08-15 11:41:11.783 [info] > git config --get commit.template [5ms]
 2023-08-15 11:41:11.785 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
 2023-08-15 11:41:11.803 [info] > git status -z -uall [15ms]
+2023-08-15 11:41:14.889 [info] > git add -A -- . [23ms]
+2023-08-15 11:41:14.923 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [31ms]
+2023-08-15 11:41:14.928 [info] > git config --get commit.template [1ms]
+2023-08-15 11:41:14.937 [info] No remotes found in the git config file.
+2023-08-15 11:41:14.937 [info] > git config --get commit.template [4ms]
+2023-08-15 11:41:14.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-08-15 11:41:14.962 [info] > git status -z -uall [20ms]
+2023-08-15 11:41:15.357 [info] No remotes found in the git config file.
+2023-08-15 11:41:15.357 [info] > git config --get commit.template [5ms]
+2023-08-15 11:41:15.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-08-15 11:41:15.378 [info] > git status -z -uall [16ms]
+2023-08-15 11:41:16.505 [info] > git ls-files --stage -- /home/ubuntu/ansible-config-mgt/playbooks/site.yml [5ms]
+2023-08-15 11:41:16.506 [info] > git ls-files --stage -- /home/ubuntu/ansible-config-mgt/dynamic-assignments/env-vars.yml [10ms]
+2023-08-15 11:41:16.510 [info] > git ls-files --stage -- /home/ubuntu/ansible-config-mgt/static-assignments/webservers.yml [6ms]
+2023-08-15 11:41:16.513 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [4ms]
+2023-08-15 11:41:16.548 [info] > git show --textconv :playbooks/site.yml [5ms]
+2023-08-15 11:41:16.554 [info] > git show --textconv :static-assignments/webservers.yml [6ms]
+2023-08-15 11:41:16.558 [info] > git show --textconv :dynamic-assignments/env-vars.yml [5ms]
+2023-08-15 11:41:16.820 [info] No remotes found in the git config file.
+2023-08-15 11:41:16.820 [info] > git config --get commit.template [9ms]
+2023-08-15 11:41:16.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-08-15 11:41:16.840 [info] > git status -z -uall [15ms]
+2023-08-15 11:41:23.462 [info] No remotes found in the git config file.
+2023-08-15 11:41:23.469 [info] > git config --get commit.template [12ms]
+2023-08-15 11:41:23.470 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
