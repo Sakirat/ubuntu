@@ -1,0 +1,19 @@
+
+[nfs]
+172.31.24.241
+
+[webservers]
+172.31.18.77
+172.31.27.154
+
+[db]
+172.31.20.25 ansible_user=ec2-user 
+
+[lb]
+172.31.24.139 ansible_user=ec2-user 
+
+
+[deployments:children]
+nfs
+webservers
+
