@@ -1,0 +1,26 @@
+2023-08-16 20:45:26.810 [info] 
+
+
+
+
+2023-08-16 20:45:26.838 [info] Extension host agent started.
+2023-08-16 20:45:28.132 [info] [127.0.0.1][e36b1b2e][ManagementConnection] New connection established.
+2023-08-16 20:45:28.133 [info] [127.0.0.1][ea8c26c3][ExtensionHostConnection] New connection established.
+2023-08-16 20:45:28.326 [info] [127.0.0.1][ea8c26c3][ExtensionHostConnection] <1143> Launched Extension Host Process.
+2023-08-16 20:45:44.263 [info] [127.0.0.1][e36b1b2e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-08-16 20:45:44.265 [error] Error: Throttler is disposed
+    at r.queue (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-16 20:45:44.419 [info] [127.0.0.1][ea8c26c3][ExtensionHostConnection] <1143> Extension Host Process exited with code: 0, signal: null.
+2023-08-16 20:45:44.419 [info] Cancelling previous shutdown timeout
+2023-08-16 20:45:44.419 [info] Last EH closed, waiting before shutting down
+2023-08-16 20:45:49.806 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-08-16 20:45:49.806 [info] Cancelling previous shutdown timeout
+2023-08-16 20:45:51.321 [info] [127.0.0.1][02d695a5][ManagementConnection] New connection established.
+2023-08-16 20:45:51.324 [info] [127.0.0.1][9ec4354b][ExtensionHostConnection] New connection established.
+2023-08-16 20:45:51.330 [info] [127.0.0.1][9ec4354b][ExtensionHostConnection] <1324> Launched Extension Host Process.
+2023-08-16 20:50:49.809 [info] New EH opened, aborting shutdown

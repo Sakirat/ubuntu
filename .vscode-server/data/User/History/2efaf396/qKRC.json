@@ -1,0 +1,13 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    "remote.SSH.remotePlatform": {
+        "jenkins-ansible": "linux",
+        "jenkins-ansible1": "linux",
+        "jenkins-ansible2": "linux",
+        "Ansible_Config_Mgt": "linux",
+        "Ansible_Config_Mgt2": "linux"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false
+}

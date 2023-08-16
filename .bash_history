@@ -81,3 +81,52 @@ clear
 cd ansible-config-mgt/
 ansible-playbook -i inventory/dev.yml playbooks/common.yml
 ansible-playbook -i /var/lib/jenkins/jobs/ansible/builds/4/archive/inventory/dev.yml /var/lib/jenkins/jobs/ansible/builds/4/archive/playbooks/common.yml
+cd ansible-config-mgt/
+ansible-playbook -i inventory/uat.yml playbooks/site.yml
+clear
+ansible-playbook -i inventory/uat.yml playbooks/site.yml
+cd ansible-config-mgt/
+ansible-playbook -i inventory/uat.yml playbooks/site.yml
+ssh-add -l
+clear
+cd ansible-config-mgt/
+ansible-playbook -i inventory/uat.yml playbooks/site.yml
+cd ansible-config-mgt/
+git checkout -b dynamic-assignments
+cd env-vars/
+touch uat.yml prod.yml dev.yml stage.yml
+cd ..
+ls -al
+sudo vi /etc/ansible/ansible.cfg
+clear
+cd
+git --version
+cd ansible-config-mgt/
+git init
+git pull https://github.com/Sakirat/ansible-config-mgt.git
+cd roles/
+ansible-galaxy install geerlingguy.mysql
+mv geerlingguy.mysql/ mysql
+git checkout main
+git merge dynamic-assignments
+clear
+cd roles
+ansible-galaxy install geerlingguy.nginx
+ansible-galaxy install geerlingguy.apache
+mv geerlingguy.nginx/ nginx
+mv geerlingguy.apache/ apache
+cd ..
+ansible-playbook -i inventory/uat playbooks/site.yml
+ansible-playbook -i inventory/uat.yml playbooks/site.yml
+ansible-playbook -i inventory/uat playbooks/site.yml
+clear
+ansible-playbook -i inventory/uat.yml playbooks/site.yml
+clear
+ssh-add -l
+ansible-playbook -i inventory/uat.yml playbooks/site.yml
+cd
+clear
+ssh ec2-user@172.31.18.77
+ssh ec2-user@172.31.27.154
+cd ansible-config-mgt/
+ansible-playbook -i inventory/uat.yml playbooks/site.yml
