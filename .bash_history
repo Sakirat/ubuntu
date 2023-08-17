@@ -130,3 +130,5 @@ ssh ec2-user@172.31.18.77
 ssh ec2-user@172.31.27.154
 cd ansible-config-mgt/
 ansible-playbook -i inventory/uat.yml playbooks/site.yml
+cd ansible-config-mgt/
+ansible-playbook -i inventory/uat.yml playbooks/site.yml
