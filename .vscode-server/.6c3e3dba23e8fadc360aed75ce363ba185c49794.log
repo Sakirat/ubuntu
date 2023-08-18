@@ -5,28 +5,28 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:36699 (IPv4)
-Extension host agent listening on 36699
+Server bound to 127.0.0.1:38057 (IPv4)
+Extension host agent listening on 38057
 
-[03:24:09] 
-
-
+[08:54:49] 
 
 
-[03:24:09] Extension host agent started.
+
+
+[08:54:50] Extension host agent started.
 Got delay-shutdown request while in shutdown timeout, delaying
-[03:24:10] Got delay-shutdown request while in shutdown timeout, delaying
+[08:54:52] Got delay-shutdown request while in shutdown timeout, delaying
 Cancelling previous shutdown timeout
-[03:24:10] Cancelling previous shutdown timeout
-[03:24:51] [127.0.0.1][02d695a5][ManagementConnection] Unknown reconnection token (never seen).
-[03:24:51] [127.0.0.1][9ec4354b][ExtensionHostConnection] Unknown reconnection token (never seen).
+[08:54:52] Cancelling previous shutdown timeout
+[08:54:54] [127.0.0.1][1f70615f][ExtensionHostConnection] Unknown reconnection token (never seen).
+[08:54:54] [127.0.0.1][0e63db64][ManagementConnection] Unknown reconnection token (never seen).
 Got delay-shutdown request while in shutdown timeout, delaying
-[03:28:05] Got delay-shutdown request while in shutdown timeout, delaying
+[08:56:19] Got delay-shutdown request while in shutdown timeout, delaying
 Cancelling previous shutdown timeout
-[03:28:05] Cancelling previous shutdown timeout
-[03:28:05] [127.0.0.1][27e61899][ManagementConnection] New connection established.
-[03:28:05] [127.0.0.1][f8b7e90d][ExtensionHostConnection] New connection established.
-[03:28:05] [127.0.0.1][f8b7e90d][ExtensionHostConnection] <7043> Launched Extension Host Process.
+[08:56:19] Cancelling previous shutdown timeout
+[08:56:20] [127.0.0.1][daa6e37e][ManagementConnection] New connection established.
+[08:56:20] [127.0.0.1][42dcf68c][ExtensionHostConnection] New connection established.
+[08:56:20] [127.0.0.1][42dcf68c][ExtensionHostConnection] <28146> Launched Extension Host Process.
 rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
 stack trace: CodeExpectedError: Could not find pty on pty host
     at g.P (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:7542)
@@ -42,7 +42,7 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:513:28)
     at emit (node:internal/child_process:939:14)
     at processTicksAndRejections (node:internal/process/task_queues:84:21)
-[03:28:11] Error [CodeExpectedError]: Could not find pty on pty host
+[08:56:23] Error [CodeExpectedError]: Could not find pty on pty host
     at g.P (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:7542)
     at g.updateTitle (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:2693)
     at g.B.<computed> (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:27:22689)
@@ -56,18 +56,21 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:513:28)
     at emit (node:internal/child_process:939:14)
     at processTicksAndRejections (node:internal/process/task_queues:84:21)
-[03:28:39] [127.0.0.1][27e61899][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[03:28:39] Error: Throttler is disposed
+[08:56:45] [127.0.0.1][daa6e37e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:56:45] Error: Throttler is disposed
     at r.queue (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
     at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
     at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
 Got delay-shutdown request while in shutdown timeout, delaying
-[03:28:43] Got delay-shutdown request while in shutdown timeout, delaying
+[08:56:49] Got delay-shutdown request while in shutdown timeout, delaying
 Cancelling previous shutdown timeout
-[03:28:43] Cancelling previous shutdown timeout
-[03:28:43] [127.0.0.1][0e63db64][ManagementConnection] New connection established.
-[03:28:43] [127.0.0.1][1f70615f][ExtensionHostConnection] New connection established.
-[03:28:43] [127.0.0.1][1f70615f][ExtensionHostConnection] <7258> Launched Extension Host Process.
+[08:56:49] Cancelling previous shutdown timeout
+[08:56:49] [127.0.0.1][a71a394b][ManagementConnection] New connection established.
+[08:56:49] [127.0.0.1][60014b71][ExtensionHostConnection] New connection established.
+[08:56:49] [127.0.0.1][60014b71][ExtensionHostConnection] <28361> Launched Extension Host Process.
 rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
 stack trace: CodeExpectedError: Could not find pty on pty host
     at g.P (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:7542)
@@ -83,7 +86,7 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:513:28)
     at emit (node:internal/child_process:939:14)
     at processTicksAndRejections (node:internal/process/task_queues:84:21)
-[03:28:47] Error [CodeExpectedError]: Could not find pty on pty host
+[08:56:51] Error [CodeExpectedError]: Could not find pty on pty host
     at g.P (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:7542)
     at g.updateTitle (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:2693)
     at g.B.<computed> (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:27:22689)
@@ -98,5 +101,5 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at emit (node:internal/child_process:939:14)
     at processTicksAndRejections (node:internal/process/task_queues:84:21)
 New EH opened, aborting shutdown
-[03:33:43] New EH opened, aborting shutdown
-[03:33:44] [127.0.0.1][f8b7e90d][ExtensionHostConnection] <7043> Extension Host Process exited with code: 0, signal: null.
+[09:01:49] New EH opened, aborting shutdown
+[09:01:49] [127.0.0.1][42dcf68c][ExtensionHostConnection] <28146> Extension Host Process exited with code: 0, signal: null.

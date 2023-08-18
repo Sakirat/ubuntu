@@ -1,0 +1,58 @@
+2023-08-18 08:54:50.008 [info] 
+
+
+
+
+2023-08-18 08:54:50.034 [info] Extension host agent started.
+2023-08-18 08:54:52.249 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-08-18 08:54:52.250 [info] Cancelling previous shutdown timeout
+2023-08-18 08:54:54.256 [error] [127.0.0.1][1f70615f][ExtensionHostConnection] Unknown reconnection token (never seen).
+2023-08-18 08:54:54.257 [error] [127.0.0.1][0e63db64][ManagementConnection] Unknown reconnection token (never seen).
+2023-08-18 08:56:19.738 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-08-18 08:56:19.739 [info] Cancelling previous shutdown timeout
+2023-08-18 08:56:20.276 [info] [127.0.0.1][daa6e37e][ManagementConnection] New connection established.
+2023-08-18 08:56:20.376 [info] [127.0.0.1][42dcf68c][ExtensionHostConnection] New connection established.
+2023-08-18 08:56:20.384 [info] [127.0.0.1][42dcf68c][ExtensionHostConnection] <28146> Launched Extension Host Process.
+2023-08-18 08:56:23.932 [error] CodeExpectedError: Could not find pty on pty host
+    at g.P (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:7542)
+    at g.updateTitle (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:2693)
+    at g.B.<computed> (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:27:22689)
+    at Object.call (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:17:4867)
+    at l.s (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at l.q (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at k.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at k.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.X (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:8:27134)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-08-18 08:56:45.582 [info] [127.0.0.1][daa6e37e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-08-18 08:56:45.585 [error] Error: Throttler is disposed
+    at r.queue (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-18 08:56:49.147 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-08-18 08:56:49.147 [info] Cancelling previous shutdown timeout
+2023-08-18 08:56:49.743 [info] [127.0.0.1][a71a394b][ManagementConnection] New connection established.
+2023-08-18 08:56:49.783 [info] [127.0.0.1][60014b71][ExtensionHostConnection] New connection established.
+2023-08-18 08:56:49.788 [info] [127.0.0.1][60014b71][ExtensionHostConnection] <28361> Launched Extension Host Process.
+2023-08-18 08:56:51.909 [error] CodeExpectedError: Could not find pty on pty host
+    at g.P (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:7542)
+    at g.updateTitle (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:2693)
+    at g.B.<computed> (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:27:22689)
+    at Object.call (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:17:4867)
+    at l.s (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at l.q (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at k.w (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at k.fire (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.X (/home/ubuntu/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:8:27134)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-08-18 09:01:49.149 [info] New EH opened, aborting shutdown
+2023-08-18 09:01:49.845 [info] [127.0.0.1][42dcf68c][ExtensionHostConnection] <28146> Extension Host Process exited with code: 0, signal: null.

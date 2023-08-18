@@ -132,3 +132,22 @@ cd ansible-config-mgt/
 ansible-playbook -i inventory/uat.yml playbooks/site.yml
 cd ansible-config-mgt/
 ansible-playbook -i inventory/uat.yml playbooks/site.yml
+cd ansible-config-mgt/
+ansible-playbook -i inventory/uat.yml playbooks/site.yml
+---
+- name: Get MySQL version.
+- name: Copy my.cnf global MySQL configuration.
+- name: Verify mysql include directory exists.
+- name: Copy my.cnf override files into include directory.
+- name: Create slow query log file (if configured).
+- name: Create datadir if it does not exist
+- name: Set ownership on slow query log file (if configured).
+- name: Create error log file (if configured).
+- name: Set ownership on error log file (if configured).
+- name: Ensure MySQL is started and enabled on boot.
+clear
+ansible-playbook -i inventory/uat.yml playbooks/site.yml
+clear
+ansible-playbook -i inventory/uat.yml playbooks/site.yml
+clear
+ansible-playbook -i inventory/uat.yml playbooks/site.yml

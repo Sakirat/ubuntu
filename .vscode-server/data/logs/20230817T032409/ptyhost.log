@@ -10,3 +10,37 @@
 2023-08-17 03:28:49.258 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
 2023-08-17 03:28:49.264 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
 2023-08-17 03:28:49.270 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2023-08-17 08:05:42.856 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-17 08:05:42.857 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 08:05:42.857 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 08:05:42.859 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 08:05:49.631 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","ln -f -s \"/tmp/ssh-wu7oyvMpaS/agent.21261\" \"/run/user/1000/vscode-ssh-auth-sock-673160075\"\nexit 0"]
+2023-08-17 08:05:49.638 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","ln -f -s \"/tmp/ssh-xRKaVd6xyn/agent.22276\" \"/run/user/1000/vscode-ssh-auth-sock-673160075\"\nexit 0"]
+2023-08-17 11:26:00.122 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-17 11:26:00.123 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 11:26:00.124 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 11:26:00.126 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 11:26:00.128 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-17 11:26:00.129 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 11:26:00.130 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 11:26:00.130 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 11:26:04.006 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","ln -f -s \"/tmp/ssh-1FUpA2NwCM/agent.22827\" \"/run/user/1000/vscode-ssh-auth-sock-673160075\"\nexit 0"]
+2023-08-17 11:26:04.010 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","ln -f -s \"/tmp/ssh-tmQ32CpcoJ/agent.22967\" \"/run/user/1000/vscode-ssh-auth-sock-673160075\"\nexit 0"]
+2023-08-17 14:43:15.874 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-17 14:43:15.875 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 14:43:15.875 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 14:43:15.884 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 14:43:15.885 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 14:43:15.885 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-17 14:43:15.886 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-17 14:43:15.887 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 14:43:18.166 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 14:43:22.879 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","ln -f -s \"/tmp/ssh-wLRQKXiE6P/agent.23197\" \"/run/user/1000/vscode-ssh-auth-sock-673160075\"\nexit 0"]
+2023-08-17 14:43:22.905 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","ln -f -s \"/tmp/ssh-Osb473q3Mz/agent.23638\" \"/run/user/1000/vscode-ssh-auth-sock-673160075\"\nexit 0"]
+2023-08-17 17:14:24.650 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-17 17:14:24.651 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 17:14:24.653 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 17:14:24.654 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2023-08-17 17:14:25.925 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2023-08-17 17:14:27.091 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","ln -f -s \"/tmp/ssh-gdkb9XZo07/agent.23985\" \"/run/user/1000/vscode-ssh-auth-sock-673160075\"\nexit 0"]
+2023-08-17 17:14:27.105 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","ln -f -s \"/tmp/ssh-BBHHyAdcQB/agent.25071\" \"/run/user/1000/vscode-ssh-auth-sock-673160075\"\nexit 0"]
